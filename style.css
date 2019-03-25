@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>browser</title>
+    <link rel="stylesheet" type="text/css"   href="css/style.css">
+
+
+</head>
+<body>
+    <div class=" images">
+        <h2>KENOLD KHALIKA - CHANCO MATERIAL</h2>
+        	
+ 
+        <h4><a href="descriptionDetails.html" title="click here to fill the program description details">PROJECT DETAILS</a></h4>
+        <h4><a href="work experience.html" title="click here to fill your work experience">WORK EXPERIENCE</a></h4>
+        <img src="pic.jpg"; width=300px>
+        <a href="http://google.com">for more info, click here</a>
+    </div>
+    <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><div class="pName">
+                <h2>Web Project</h2>
+                <p>developing website for MEC </p> 
+            </div></li>
+            <li><div class="pName"> <h2>Hacking software</h2>
+            <p>developing hacking software for companies </p> 
+            </div></li>
+            <li><div class="pName">
+             <h2>Database desgnining & implemantation</h2>
+             <p>desgning and implemanting database for National Bank </p> 
+             </div></li>
+            <li><div class="pName">
+            <h2> Game Project</h2>
+             <p>developing  a game</p>
+            </div></li>
+            <li><div class="pName">
+            <h2>video downloader</h2>
+             <p>developing software that enables user to download videos</p>
+             </div></li>
+            <li><div class="pName">
+            <h2>Whatsapp hacker</h2>
+            <p>developing software for hacking whatsapp messages</p>
+             </div></li>
+        </ul>
+    </div>
+    <div class="expri">
+            <h1>WORK EXPERIENCE</h1>
+            <p>ICT Manager at Toyota Malawi</p>
+            <p>Database administrator at Reserve Bank of Malawi</p>
+            <p>Information Security Analyst at Airtel</p>
+    </div>
+</body>
+</html>

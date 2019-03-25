@@ -1,0 +1,18 @@
+
+body {
+    background-color: peru;
+    }
+form{
+    color:purple;
+    }
+h1{
+    text-align: center; color:black
+  }
+h2{
+    color: rgb(18, 17, 19);
+    text-align: center;
+  }
+.projectname, .Descriptiondate,.organisationname{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

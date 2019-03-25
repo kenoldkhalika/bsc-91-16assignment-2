@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+    <header>
+        <title> DETAILS OF PROJECT NAME </title>
+        <link rel="stylesheet" href="formPresentation.css">
+    </header>
+    <body>
+        <form> 
+
+            <h1> HERE THERE ARE PROJECT DETAILS</h1>
+            <h2>FILL THE FORM BELOW: </h2><br />
+            <form action="dosomething" method="POST">
+                    PROJECT NAME:   <input type="text" class="projectname" placeholder="ENTER YOUR PROJECT NAME " size="60" maxlength="60"/>
+                    <br/> <br/> <br/>
+                
+                    DESCRIPTION OF THE DETAILS:
+                    <br/>
+                        <input id="Description" placeholder="ENTER A SHORT DESCRIPTION " size="60" maxlength="600">
+                    
+                        </textarea> <br/> <br/> <br/>
+
+                   
+                   COMPRETION DATE:   <input type="date" id="Descriptiondate" size="50" placeholder="project name here...." maxlength="50"/>
+                   <br/> <br/> <br/>
+
+               
+   
+                   SUBMIT: <input type="submit" name="submition1" value="Submit">
+            </form>
+
+
+        </form>
+    </body>
+    <script type="text/javaScript">
+        const projectname = document.getElementById("projectname");
+        const Description = document.getElementById("Description");
+        const Descriptiondate= document.getElementById("Descriptiondate");
+        const submition1 = document.getElementById("submition1");
+        const lsOutput = document.getElementById("lsOutput");
+
+        submition1.onclick = function() {
+            
+        
+            const key = projectname.value;
+            const value = Description.value;
+            const value1 = Descriptiondate.value;
+            const value2 = submition1.value;
+
+            // console.log(key);
+            // console.log(value);
+            
+            if (key && value && value1 && value2) {
+               localStorage.setItem(key, value, value1, value2);
+               location.reload(); 
+            }
+        };
+
+        // for (let i =0; i<localStorage.length; i++){
+        //     const key = localStorage.key(i);
+        //     const value = localStorage.getItem(key);
+ 
+        //     lsOutput.innerHTML += `${key}: ${value}`;
+
+        // }
+    
+    </script>
+
+</html>
